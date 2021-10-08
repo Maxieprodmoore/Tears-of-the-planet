@@ -1,6 +1,6 @@
 const aboutUs = () => {
     return (  
-        <h2>This is the About Us page!</h2>
+        <h2>A message from WWF's director:</h2>
     );
 }
  

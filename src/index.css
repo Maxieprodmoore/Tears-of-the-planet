@@ -10,37 +10,43 @@ p, a {
 }
 
 /*Web content*/
-.navbar {
-  padding: 0.75%;
-  display: flex;
-  align-items: center;
-  max-width: 100%;
-  margin: 0 ;
-  background-color: black;
-  
-}
-.navbar .links {
-  margin-left: auto;
-}
-.navbar a {
-  margin-left: 16px;
-  text-decoration: none;
-  font-size: 1.5rem;
-  color: white;
-}
-.navbar a:hover{
-  color: #025373;
-}
+  /*Navigation Bar----------------------*/
+    .navbar {
+      padding: 0.75%;
+      display: flex;
+      align-items: center;
+      max-width: 100%;
+      margin: 0 ;
+      background-color: black;
+      
+    }
+    .navbar .links {
+      margin-left: auto;
+    }
+    .navbar a {
+      margin-left: 16px;
+      text-decoration: none;
+      font-size: 1.3rem;
+      color: white;
+    }
+    .links{
+      padding-right: 2%;
+    }
+    .navbar a:hover{
+      color: #025373;
+    }
 
-.navbar sl-button::part(base){
-  margin-left: 16px;
-  font-size: 1.5rem;
-}
+    .navbar sl-button::part(base){
+      margin-left: 16px;
+      font-size: 1.3rem;
+    }
 
 .content {
-  margin: 10%;
+  padding: 3% 10%;
   width: 80%;
 }
+
+
 
 /* Responsive Design */
 
