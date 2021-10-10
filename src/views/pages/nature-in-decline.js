@@ -1,3 +1,6 @@
+import SlButtonGroup from '@shoelace-style/react/dist/components/button-group';
+import SlButton from '@shoelace-style/react/dist/components/button';
+
 const natureInDecline = () => {
     return (  
         <div className="content">
@@ -25,6 +28,11 @@ const natureInDecline = () => {
                     <h3>The life under our feet</h3>
                     <p>Soil is an essential part of the natural environment.</p>
                 </div>
+                <SlButtonGroup>
+                    <SlButton size="medium">Previous page</SlButton>
+                    <SlButton size="medium">Back to home page</SlButton>
+                    <SlButton size="medium">Next page</SlButton>
+                </SlButtonGroup>
             </div>
         </div>
         
