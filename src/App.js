@@ -1,5 +1,5 @@
-import '@shoelace-style/shoelace/dist/components/button/button.js';
-import '@shoelace-style/shoelace/dist/components/button-group/button-group.js';
+import '@shoelace-style/react/dist/button';
+import '@shoelace-style/react/dist/button-group';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Navbar from './../src/components/totp-navbar';
 import Home from './../src/views/pages/homepage';

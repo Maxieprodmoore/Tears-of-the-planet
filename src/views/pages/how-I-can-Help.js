@@ -1,6 +1,6 @@
-import SlButtonGroup from '@shoelace-style/react/dist/components/button-group';
-import SlButton from '@shoelace-style/react/dist/components/button';
-import SlIcon from '@shoelace-style/react/dist/components/icon';
+import SlButtonGroup from '@shoelace-style/react/dist/button-group';
+import SlButton from '@shoelace-style/react/dist/button';
+import  '@shoelace-style/react/dist/icon';
 
 const howICanHelp = () => {
     return (
@@ -11,11 +11,11 @@ const howICanHelp = () => {
           <h3>Share this with a friend/family member!</h3>
             <p></p>
             <div id="socials">
-              <SlButtons></SlButtons>
-              <SlButtons></SlButtons>
-              <SlButtons></SlButtons>
-              <SlButtons></SlButtons>
-              <SlButtons></SlButtons>
+              <SlButton></SlButton>
+              <SlButton></SlButton>
+              <SlButton></SlButton>
+              <SlButton></SlButton>
+              <SlButton></SlButton>
             </div>
             <p></p>
             <SlButton size="large">Living Planet Report</SlButton>

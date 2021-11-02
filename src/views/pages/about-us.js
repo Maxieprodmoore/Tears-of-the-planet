@@ -1,5 +1,5 @@
-import SlButtonGroup from '@shoelace-style/react/dist/components/button-group';
-import SlButton from '@shoelace-style/react/dist/components/button';
+import SlButtonGroup from '@shoelace-style/react/dist/button-group';
+import SlButton from '@shoelace-style/react/dist/button';
 
 const aboutUs = () => {
     return (  
