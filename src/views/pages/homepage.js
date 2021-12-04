@@ -19,7 +19,7 @@ const Home = () => {
                 <h4>
                     Are you ready to take the plunge into the information needed to lead the charge to heal Mother Earth?
                 </h4>
-                <div id="introBtn">
+                <div className="sectionBtns">
                     <SLButton size="medium" href="/about-us">
                         <strong>Let's Get Started!</strong>
                     </SLButton>

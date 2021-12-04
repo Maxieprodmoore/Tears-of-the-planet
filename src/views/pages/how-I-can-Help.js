@@ -25,11 +25,15 @@ const howICanHelp = () => {
           <div id="pledges">
             <h3>Pledges</h3>
           </div>
-          <SlButtonGroup>
-            <SlButton size="medium">Previous page</SlButton>
-            <SlButton size="medium">Back to home page</SlButton>
-            <SlButton size="medium">Next page</SlButton>
-          </SlButtonGroup>
+
+          <div className="sectionBtns">
+            <SlButtonGroup>
+              <SlButton size="medium">Previous section</SlButton>
+              <SlButton size="medium" href="/">Back to home page</SlButton>
+              <SlButton size="medium">Next section</SlButton>
+            </SlButtonGroup>
+          </div>
+          
         </div>
       );
 }

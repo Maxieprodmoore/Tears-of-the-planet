@@ -28,11 +28,13 @@ const natureInDecline = () => {
                     <h3>The life under our feet</h3>
                     <p>Soil is an essential part of the natural environment.</p>
                 </div>
-                <SlButtonGroup>
-                    <SlButton size="medium">Previous page</SlButton>
-                    <SlButton size="medium">Back to home page</SlButton>
-                    <SlButton size="medium">Next page</SlButton>
-                </SlButtonGroup>
+                <div className="sectionBtns">
+                    <SlButtonGroup>
+                        <SlButton size="medium">Previous section</SlButton>
+                        <SlButton size="medium" href="/">Back to home page</SlButton>
+                        <SlButton size="medium">Next section</SlButton>
+                    </SlButtonGroup>
+                </div>                
             </div>
         </div>
         
