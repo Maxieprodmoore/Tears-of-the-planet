@@ -3,6 +3,7 @@
 /* Fonts */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Archivo Black', sans-serif;
+  font-size: 2rem;
 }
 
 p, a {
@@ -40,13 +41,52 @@ p, a {
       margin-left: 16px;
       font-size: 1.3rem;
     }
+  
+  /*End of Navigation bar stylings---------------------*/
 
-.content {
-  padding: 3% 10%;
-  width: 80%;
-}
+  /* General Webpage stylings------------------------------------------*/
 
+    .content {
+      padding: 3% 10%;
+      width: 80%;
+    }
+  
+  /*End of General Webpage stylings---------------------*/
 
+/*-----------------------Home page ---------------------------------*/
+  #introImg {
+    background-image: url("./images/pexels-pixabay-heroImg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+  }
+
+  #introTxt{
+    padding: 3% 5%;
+    color: white;
+  }
+
+  #introTxt h1 {
+    font-size: 2.8rem;
+  }
+
+  #introTxt h3{
+    font-size: 2.4rem;
+  }
+
+  .introTitle, #introBtn {
+    text-align: center;
+  }
+
+/*-----------------------About page ---------------------------------*/
+
+/*-----------------------Nature in Decline page ---------------------------------*/
+
+/*-----------------------Why bother page ---------------------------------*/
+
+/*-----------------------How can I help page ---------------------------------*/
 
 /* Responsive Design */
 
