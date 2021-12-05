@@ -4,7 +4,7 @@ import  '@shoelace-style/react/dist/icon';
 
 const howICanHelp = () => {
     return (
-        <div className="content">
+        <div>
           <h2>What can we do to save our planet?</h2>
           <h3>Scientists are suggesting the following actions:</h3>
           <h3>Helping our freshwater sources from our homes:</h3>
@@ -28,9 +28,8 @@ const howICanHelp = () => {
 
           <div className="sectionBtns">
             <SlButtonGroup>
-              <SlButton size="medium">Previous section</SlButton>
+              <SlButton size="medium" href="/why-bother">Previous section</SlButton>
               <SlButton size="medium" href="/">Back to home page</SlButton>
-              <SlButton size="medium">Next section</SlButton>
             </SlButtonGroup>
           </div>
           

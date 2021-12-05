@@ -3,7 +3,7 @@ import SlButton from '@shoelace-style/react/dist/button';
 
 const aboutUs = () => {
     return (  
-        <div className="content">
+        <div>
             <div className="infoDump">
                 <h2>What is WWF?</h2>
                 <p>WWF is a Non-government organization that was formed on 29 April 1961 by a group of eminent people who made an

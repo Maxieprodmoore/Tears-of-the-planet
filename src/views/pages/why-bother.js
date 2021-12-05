@@ -3,13 +3,13 @@ import SlButton from '@shoelace-style/react/dist/button';
 
 const whyBother = () => {
     return (  
-        <div className="content">
+        <div>
             <h2>Why does it matter?</h2>
             <div className="sectionBtns">
                 <SlButtonGroup>
-                    <SlButton size="medium">Previous section</SlButton>
+                    <SlButton size="medium" href="nature-in-decline">Previous section</SlButton>
                     <SlButton size="medium" href="/">Back to home page</SlButton>
-                    <SlButton size="medium">Next section</SlButton>
+                    <SlButton size="medium" href="how-i-can-help">Next section</SlButton>
                 </SlButtonGroup>
             </div>
             

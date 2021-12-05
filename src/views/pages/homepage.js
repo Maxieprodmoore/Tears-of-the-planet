@@ -16,9 +16,9 @@ const Home = () => {
                     But we need to get started. And with your help alongside the multitude of others before you, 
                     we can make the first steps towards recovery.
                 </h4>
-                <h4>
+                <h5>
                     Are you ready to take the plunge into the information needed to lead the charge to heal Mother Earth?
-                </h4>
+                </h5>
                 <div className="sectionBtns">
                     <SLButton size="medium" href="/about-us">
                         <strong>Let's Get Started!</strong>

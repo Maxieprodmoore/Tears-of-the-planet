@@ -4,6 +4,8 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Archivo Black', sans-serif;
   font-size: 2rem;
+  margin-top: 0%;
+  margin-bottom: 1%;
 }
 
 p, a {
@@ -47,17 +49,28 @@ p, a {
   /* General Webpage stylings------------------------------------------*/
 
     .content {
-      padding: 3% 10%;
+      padding: 2% 10% 3%;
       width: 80%;
     }
 
     .infoDump {
         border-bottom: 3px solid black;
         padding-bottom: 1.25%;
+        padding-top: 1%;
+        width: 100%;
+        
     }
 
     .infoDump h2, .infoDump h3, .infoDump sl-button::part(base){
       text-align: center;
+    }
+
+    .sectionBtns, .info {
+      width: 100%;
+    }
+
+    .info{
+      display: flex;
     }
   
   /*End of General Webpage stylings---------------------*/
@@ -85,6 +98,10 @@ p, a {
     font-size: 2.4rem;
   }
 
+  #introTxt h5 {
+    font-size: 1.8rem;
+  }
+
   .introTitle, .sectionBtns {
     text-align: center;
   }
@@ -92,7 +109,29 @@ p, a {
 /*-----------------------About page ---------------------------------*/
 
 /*-----------------------Nature in Decline page ---------------------------------*/
+.infoDetails{
+  width: 60%;
+  padding: 0 5%;
+}
 
+.infoBtns{
+  width: 30%;
+  margin: 0 auto;
+}
+
+.infoBtns p{
+  margin-top: 0;
+}
+
+.infoBtnsImgs{
+  max-width: 800px;
+  width: 50%;
+  margin: 0;
+}
+
+.infoDetails h3 {
+  text-align: initial;
+}
 /*-----------------------Why bother page ---------------------------------*/
 
 /*-----------------------How can I help page ---------------------------------*/
