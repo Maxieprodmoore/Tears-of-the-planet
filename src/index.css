@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* Fonts */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Archivo Black', sans-serif;
-  font-size: 2rem;
-  margin-top: 0%;
-  margin-bottom: 1%;
-}
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 2rem;
+    margin-top: 0%;
+    margin-bottom: 1%;
+  }
 
-p, a {
-  font-family: 'Lato', sans-serif;
-}
+  p, a {
+    font-family: 'Lato', sans-serif;
+  }
 
 /*Web content*/
   /*Navigation Bar----------------------*/
@@ -121,34 +121,39 @@ p, a {
 /*-----------------------About page ---------------------------------*/
 
 /*-----------------------Nature in Decline page ---------------------------------*/
-.infoDetails{
-  width: 60%;
-  padding: 0 2.5%;
-}
+  .infoDetails{
+    width: 60%;
+    padding: 0 2.5%;
+  }
 
-.infoDetails img {
-  width: 600px;
-}
+  .infoDetails img {
+    width: 600px;
+  }
 
-.infoBtns{
-  width: 40%;
-  margin: 0 auto;
-}
+  .infoBtns{
+    width: 40%;
+    margin: 0 auto;
+  }
 
-.infoBtns p{
-  margin-top: 0;
-}
+  .infoBtns p{
+    margin-top: 0;
+  }
 
-.infoBtnsImgs{
-  max-width: 600px;
-  width: 50%;
-  margin: 0;
-  cursor: pointer;
-}
+  .infoBtnsImgs{
+    max-width: 600px;
+    width: 50%;
+    margin: 0;
+    cursor: pointer;
+  }
 
-.infoDetails h3 {
-  text-align: initial;
-}
+  .infoBtnsImgs:hover{
+    opacity: 0.8;
+  }
+
+  .infoDetails h3 {
+    text-align: initial;
+  }
+  
 /*-----------------------Why bother page ---------------------------------*/
 
 /*-----------------------How can I help page ---------------------------------*/
