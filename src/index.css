@@ -15,7 +15,6 @@ p, a {
 /*Web content*/
   /*Navigation Bar----------------------*/
     .navbar {
-      padding: 0.75%;
       display: flex;
       align-items: center;
       max-width: 100%;
@@ -124,7 +123,7 @@ p, a {
 /*-----------------------Nature in Decline page ---------------------------------*/
 .infoDetails{
   width: 60%;
-  padding: 0 5%;
+  padding: 0 2.5%;
 }
 
 .infoDetails img {
@@ -132,7 +131,7 @@ p, a {
 }
 
 .infoBtns{
-  width: 30%;
+  width: 40%;
   margin: 0 auto;
 }
 
@@ -141,9 +140,10 @@ p, a {
 }
 
 .infoBtnsImgs{
-  max-width: 800px;
+  max-width: 600px;
   width: 50%;
   margin: 0;
+  cursor: pointer;
 }
 
 .infoDetails h3 {
