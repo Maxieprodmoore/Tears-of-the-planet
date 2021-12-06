@@ -10,7 +10,7 @@ import seaImg from './../../images/pexels-lachlan-ross-dolphins.jpg';
 import freshWaterImg from './../../images/pexels-robert-laszlo-duck.jpg';
 import foodImg from './../../images/pexels-sharad-bhat-logs.jpg';
 
-const natureInDecline = () => {
+const NatureInDecline = () => {
     {/*--------------------------Decline regarding Soil inhabitants------------------------*/}
         const detailsSoil_Title = 'Cries from the ground';
         const detailsSoil_Para1 = 'Soil is an essential part of the natural environment. Healthy soil filters water, help keep greenhouse gases from building up in the atmosphere and allow plants to grow – including our food.';
@@ -50,7 +50,7 @@ const natureInDecline = () => {
                 setPara1(detailsSoil_Para1);
                 setPara2(detailsSoil_Para2);
                 setPara3(detailsSoil_Para3);
-            }
+            };
         
         {/*--------------------------------Click on Sea Image-------------------------------*/}
             const dolphPicClick = () => {
@@ -59,7 +59,7 @@ const natureInDecline = () => {
                 setPara1(detailsSea_Para1);
                 setPara2(detailsSea_Para2);
                 setPara3(detailsSea_Para3);
-            }
+            };
         
         {/*--------------------------------Click on Freshwater Image-------------------------------*/}
             const duckPicClick = () => {
@@ -68,7 +68,7 @@ const natureInDecline = () => {
                 setPara1(detailsFreshWater_Para1);
                 setPara2(detailsFreshWater_Para2);
                 setPara3(detailsFreshWater_Para3);
-            }
+            };
         
             {/*--------------------------------Click on Logs Image-------------------------------*/}
             const logsPicClick = () => {
@@ -77,7 +77,7 @@ const natureInDecline = () => {
                 setPara1(detailsFood_Para1);
                 setPara2(detailsFood_Para2);
                 setPara3(detailsFood_Para3);
-            }
+            };
 
     return (  
         <div>
@@ -133,4 +133,4 @@ const natureInDecline = () => {
     );
 }
  
-export default natureInDecline;
+export default NatureInDecline;
