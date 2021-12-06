@@ -42,7 +42,7 @@ const natureInDecline = () => {
         const [articlePara2, setPara2] = useState(detailsSoil_Para2);
         const [articlePara3, setPara3] = useState(detailsSoil_Para3);
     
-    {'/*-----------------------------Switching to the various articles on image click-------------------------------*/'}
+    {/*-----------------------------Switching to the various articles on image click-------------------------------*/}
         {/*--------------------------------Click on Soil Image-------------------------------*/}
             const molePicClick = () => {
                 setTitle(detailsSoil_Title);
