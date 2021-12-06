@@ -1,8 +1,13 @@
 import SlButtonGroup from '@shoelace-style/react/dist/button-group';
 import SlButton from '@shoelace-style/react/dist/button';
+import SlIcon from '@shoelace-style/react/dist/icon';
 import  '@shoelace-style/react/dist/icon';
 
 const HowICanHelp = () => {
+  const toPrevSection = (e) => {
+    e.preventDefault();
+    window.location.href='/why-bother';
+  };
     return (
         <div>
           <div className="infoDump">
@@ -83,11 +88,9 @@ const HowICanHelp = () => {
           <h3>Share this with a friend/family member!</h3>
             <p></p>
             <div id="socials">
-              <SlButton></SlButton>
-              <SlButton></SlButton>
-              <SlButton></SlButton>
-              <SlButton></SlButton>
-              <SlButton></SlButton>
+              <SlButton><SlIcon name="facebook"></SlIcon></SlButton>
+              <SlButton><SlIcon name="snapchat"></SlIcon></SlButton>
+              <SlButton><SlIcon name="twitter"></SlIcon></SlButton>
             </div>
             <p></p>
             <SlButton size="large"  href="https://files.worldwildlife.org/wwfcmsprod/files/Publication/file/279c656a32_ENGLISH_FULL.pdf" target="_blank">Living Planet Report</SlButton>
@@ -100,7 +103,7 @@ const HowICanHelp = () => {
 
           <div className="sectionBtns">
             <SlButtonGroup>
-              <SlButton size="medium" href="/why-bother">Previous section</SlButton>
+              <SlButton size="medium" onClick={toPrevSection} >Previous section</SlButton>
               <SlButton size="medium" href="/">Back to home page</SlButton>
             </SlButtonGroup>
           </div>
