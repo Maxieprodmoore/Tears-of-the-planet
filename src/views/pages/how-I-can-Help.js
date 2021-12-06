@@ -13,7 +13,7 @@ const HowICanHelp = () => {
           <div className="infoDump">
             <h2>What can we do to save our planet?</h2>
             <div className="info">
-              <p>
+                <p>
                   We can start by rethinking our relationship with the planet 
                   and finding the balance that will allow us and the rest of nature to survive.
                 </p>
@@ -39,42 +39,54 @@ const HowICanHelp = () => {
           <div className="infoDump">
             <h3>Scientists are suggesting the following actions:</h3>
             <div className="info">
-              <p>
-                Stop the wastage of food. 
-                <br />
-                Change some of our diets and change fishing practices to ensure that the oceans can thrive and replace what we take out.
-              </p>
-              <p>
-                If you feel bolder, choose a more plant-based diet.
-              </p>
-              <p>
-                Else, supporting food that is produced in a more environmentally sustainable manner,
-                <br /> 
-                and buying locally produced food (where possible) is a great start.
-              </p>
-              <p>
-                Check your energy is from 100% renewable sources and encourage the replacement to renewable sources.
-              </p>
-              <p>
-                Invest in ‘nature-based solutions’ that can support biodiversity while playing an active role in slowing climate change 
-                and protecting people and wildlife from its effects. 
-                <br />
-                <p> For example, carefully choosing places to plant more forests to strengthen landscapes.
-                    <br /> 
-                    Improve soil quality and capture carbon to help in the fight against climate change. 
+              <div className="infoDetails">
+                <p>
+                  Stop the wastage of food. 
+                  <br />
+                  Change some of our diets and change fishing practices to ensure that the oceans can thrive and replace what we take out.
                 </p>
-              </p>
-              <p>
-                Plant or support the planting of trees.
-                <br />
-                It can help improve air quality, prevent floods and keep residential areas cool.
-                <br /> 
-                and simply having trees nearby improves the physical and mental health of people living and working there.
+                <p>
+                  If you feel bolder, choose a more plant-based diet.
+                </p>
+                <p>
+                  Else, supporting food that is produced in a more environmentally sustainable manner,
+                  <br /> 
+                  and buying locally produced food (where possible) is a great start.
+                </p>
+              </div>
+              
+            </div>
+             
+            <div className="info">
+              <div className="infoDetails">
+                <p>
+                  Check your energy is from 100% renewable sources and encourage the replacement to renewable sources.
+                </p>
+              </div>
+            </div>
+            <div className="info">
+              <div className="infoDetails">
+                <p>
+                  Invest in ‘nature-based solutions’ that can support biodiversity while playing an active role in slowing climate change 
+                  and protecting people and wildlife from its effects. 
+                  <br />
+                  <p> For example, carefully choosing places to plant more forests to strengthen landscapes.
+                      <br /> 
+                      Improve soil quality and capture carbon to help in the fight against climate change. 
+                  </p>
+                </p>
+                <p>
+                  Plant or support the planting of trees.
+                  <br />
+                  It can help improve air quality, prevent floods and keep residential areas cool.
+                  <br /> 
+                  and simply having trees nearby improves the physical and mental health of people living and working there.
 
-              </p>
-              <p>
-                Otherwise, just taking action for your local biodiversities go a long way in helping mother Earth.
-              </p>
+                </p>
+                <p>
+                  Otherwise, just taking action for your local biodiversities go a long way in helping mother Earth.
+                </p>
+              </div>
             </div>
 
           </div>
@@ -82,7 +94,15 @@ const HowICanHelp = () => {
             <h3>
               Don’t worry about taking action alone, there are peers out there who are just as eager to ensure Nature is healing:
             </h3>
-
+            <div className="infoVids">
+              <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wq9DJWFtnuY" title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen >      
+              </iframe>
+              <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kEjcTjGajis" title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+              </iframe>
+            </div>
+            
           </div>
           
           <h3>Share this with a friend/family member!</h3>

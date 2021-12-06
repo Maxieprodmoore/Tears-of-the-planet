@@ -39,7 +39,7 @@
     .links{
       padding-right: 2%;
     }
-    
+
     .navbar a:hover{
       color: #025373;
     }
@@ -98,12 +98,16 @@
       max-height: 100%;
       object-fit: contain;
     }
+
+    .infoVids {
+      margin: 0 5%;
+    }
   
   /*End of General Webpage stylings---------------------*/
 
 /*-----------------------Home page ---------------------------------*/
   #introImg {
-    background-image: url("./images/pexels-pixabay-heroImg.jpg");
+    background-image: url("./images/pexels-ron-lach-heroImg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
