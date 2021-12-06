@@ -5,11 +5,11 @@ const WhyBother = () => {
     /* ------------------------- Link to other pages---------------------------------*/
         const toPrevSection = (e) => {
             e.preventDefault();
-            window.location.href='/about-us';
+            window.location.href='/nature-in-decline';
         };
         const toNextSection = (e) => {
             e.preventDefault();
-            window.location.href='/why-bother';
+            window.location.href='/how-i-can-help';
         };
     return (  
         <div>
@@ -68,9 +68,9 @@ const WhyBother = () => {
 
                 <div className="sectionBtns">
                     <SlButtonGroup>
-                        <SlButton size="medium" onClick={toPrevSection} href="nature-in-decline">Previous section</SlButton>
+                        <SlButton size="medium" onClick={toPrevSection} >Previous section</SlButton>
                         <SlButton size="medium" href="/">Back to home page</SlButton>
-                        <SlButton size="medium" onClick={toNextSection} href="how-i-can-help">Next section</SlButton>
+                        <SlButton size="medium" onClick={toNextSection}>Next section</SlButton>
                     </SlButtonGroup>
                 </div>
 
