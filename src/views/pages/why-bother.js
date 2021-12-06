@@ -1,7 +1,7 @@
 import SlButtonGroup from '@shoelace-style/react/dist/button-group';
 import SlButton from '@shoelace-style/react/dist/button';
 
-const whyBother = () => {
+const WhyBother = () => {
     return (  
         <div>
             <h2>Why does it matter?</h2>
@@ -72,4 +72,4 @@ const whyBother = () => {
     );
 }
  
-export default whyBother;
+export default WhyBother;

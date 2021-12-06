@@ -2,7 +2,7 @@ import SlButtonGroup from '@shoelace-style/react/dist/button-group';
 import SlButton from '@shoelace-style/react/dist/button';
 import  '@shoelace-style/react/dist/icon';
 
-const howICanHelp = () => {
+const HowICanHelp = () => {
     return (
         <div>
           <div className="infoDump">
@@ -109,4 +109,4 @@ const howICanHelp = () => {
       );
 }
  
-export default howICanHelp;
+export default HowICanHelp;

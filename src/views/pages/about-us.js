@@ -1,7 +1,7 @@
 import SlButtonGroup from '@shoelace-style/react/dist/button-group';
 import SlButton from '@shoelace-style/react/dist/button';
 
-const aboutUs = () => {
+const AboutUs = () => {
     return (  
         <div>
             <div className="infoDump">
@@ -50,4 +50,4 @@ const aboutUs = () => {
     );
 }
  
-export default aboutUs;
+export default AboutUs;
