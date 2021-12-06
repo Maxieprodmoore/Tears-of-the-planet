@@ -1,6 +1,12 @@
 import SLButton from '@shoelace-style/react/dist/button';
 
 const Home = () => {
+    /*------------------ Link to next section--------------------------------*/
+        const toNextSection = (e) => {
+            e.preventDefault();
+            window.location.href='/about-us';
+        };
+    
     return ( 
         <div id="introImg">
             <div id="introTxt">
@@ -20,7 +26,7 @@ const Home = () => {
                     Are you ready to take the plunge into the information needed to lead the charge to heal Mother Earth?
                 </h5>
                 <div className="sectionBtns">
-                    <SLButton size="medium" href="/about-us">
+                    <SLButton size="medium" onClick={toNextSection}>
                         <strong>Let's Get Started!</strong>
                     </SLButton>
                 </div>

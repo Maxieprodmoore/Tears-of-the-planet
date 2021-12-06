@@ -2,6 +2,12 @@ import SlButtonGroup from '@shoelace-style/react/dist/button-group';
 import SlButton from '@shoelace-style/react/dist/button';
 
 const AboutUs = () => {
+    /* ------------------------- Link to other pages---------------------------------*/
+    const toNextSection = (e) => {
+        e.preventDefault();
+        window.location.href='/nature-in-decline';
+    };
+    
     return (  
         <div>
             <div className="infoDump">
@@ -39,7 +45,7 @@ const AboutUs = () => {
                 <div className="sectionBtns">
                     <SlButtonGroup>
                         <SlButton size="medium" href="/">Previous section</SlButton>
-                        <SlButton size="medium" href="/nature-in-decline">Next section</SlButton>
+                        <SlButton size="medium" onClick={toNextSection}>Next section</SlButton>
                     </SlButtonGroup>
                 </div> 
                 

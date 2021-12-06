@@ -2,6 +2,15 @@ import SlButtonGroup from '@shoelace-style/react/dist/button-group';
 import SlButton from '@shoelace-style/react/dist/button';
 
 const WhyBother = () => {
+    /* ------------------------- Link to other pages---------------------------------*/
+        const toPrevSection = (e) => {
+            e.preventDefault();
+            window.location.href='/about-us';
+        };
+        const toNextSection = (e) => {
+            e.preventDefault();
+            window.location.href='/why-bother';
+        };
     return (  
         <div>
             <h2>Why does it matter?</h2>
@@ -59,9 +68,9 @@ const WhyBother = () => {
 
                 <div className="sectionBtns">
                     <SlButtonGroup>
-                        <SlButton size="medium" href="nature-in-decline">Previous section</SlButton>
+                        <SlButton size="medium" onClick={toPrevSection} href="nature-in-decline">Previous section</SlButton>
                         <SlButton size="medium" href="/">Back to home page</SlButton>
-                        <SlButton size="medium" href="how-i-can-help">Next section</SlButton>
+                        <SlButton size="medium" onClick={toNextSection} href="how-i-can-help">Next section</SlButton>
                     </SlButtonGroup>
                 </div>
 

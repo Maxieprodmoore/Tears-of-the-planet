@@ -78,7 +78,15 @@ const NatureInDecline = () => {
                 setPara2(detailsFood_Para2);
                 setPara3(detailsFood_Para3);
             };
-
+    /* ------------------------- Link to other pages---------------------------------*/
+        const toPrevSection = (e) => {
+            e.preventDefault();
+            window.location.href='/about-us';
+        };
+        const toNextSection = (e) => {
+            e.preventDefault();
+            window.location.href='/why-bother';
+          };
     return (  
         <div>
             <h2>Nature in Decline</h2>
@@ -122,9 +130,9 @@ const NatureInDecline = () => {
                 
                 <div className="sectionBtns">
                     <SlButtonGroup>
-                        <SlButton size="medium" href="/about-us">Previous section</SlButton>
+                        <SlButton size="medium" onClick={toPrevSection}>Previous section</SlButton>
                         <SlButton size="medium" href="/">Back to home page</SlButton>
-                        <SlButton size="medium" href="/why-bother">Next section</SlButton>
+                        <SlButton size="medium" onClick={toNextSection}>Next section</SlButton>
                     </SlButtonGroup>
                 </div>                
             </div>
