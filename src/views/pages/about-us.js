@@ -8,16 +8,18 @@ const aboutUs = () => {
                 <h2>What is WWF?</h2>
                 <p>WWF is a Non-government organization that was formed on 29 April 1961 by a group of eminent people who made an
                     inspired commitment to the natural world. 
+                    <br />
                     They're calling for urgent worldwide action to stop vast numbers of wild animals from being hunted out of existence, 
                     and stop their habitats from being destroyed. 
                     <br />
                     <br />
                     Check out the video down below for an example of what WWF does!
                 </p>
-
+                <iframe 
+                    width="800" height="450" src="https://www.youtube-nocookie.com/embed/xuM3tIHZsQ8" title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                ></iframe>
             </div>    
-            
-
             
             <div className="infoDump">
                 <h2>What is this about?</h2>
@@ -41,10 +43,8 @@ const aboutUs = () => {
                     </SlButtonGroup>
                 </div> 
                 
-            </div>
-            
-            
-           
+            </div>         
+                       
         </div>
         
     );

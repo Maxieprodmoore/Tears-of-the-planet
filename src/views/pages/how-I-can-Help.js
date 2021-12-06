@@ -77,6 +77,7 @@ const howICanHelp = () => {
             <h3>
               Don’t worry about taking action alone, there are peers out there who are just as eager to ensure Nature is healing:
             </h3>
+
           </div>
           
           <h3>Share this with a friend/family member!</h3>
@@ -89,8 +90,8 @@ const howICanHelp = () => {
               <SlButton></SlButton>
             </div>
             <p></p>
-            <SlButton size="large">Living Planet Report</SlButton>
-            <SlButton size="large">Living Planet Report Youth Edition</SlButton>
+            <SlButton size="large"  href="https://files.worldwildlife.org/wwfcmsprod/files/Publication/file/279c656a32_ENGLISH_FULL.pdf" target="_blank">Living Planet Report</SlButton>
+            <SlButton size="large" href="https://files.worldwildlife.org/wwfcmsprod/files/EducatorsToolkitFile/file/1y1dqia168_Living_Planet_Report_2020_Youth_Edition_Report.pdf" target="_blank">Living Planet Report Youth Edition</SlButton>
           <h3>Make a pledge to do more for the Planet!</h3>
           <SlButton size="large" type="success">Make a Pledge!</SlButton>
           <div id="pledges">

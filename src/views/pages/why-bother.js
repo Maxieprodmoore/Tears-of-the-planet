@@ -57,15 +57,15 @@ const whyBother = () => {
                     we must be careful to preserve them and their environments least they are lost to the harm we are causing before we have the chance to discover what they can offer us. 
                 </p>
 
-            </div>
+                <div className="sectionBtns">
+                    <SlButtonGroup>
+                        <SlButton size="medium" href="nature-in-decline">Previous section</SlButton>
+                        <SlButton size="medium" href="/">Back to home page</SlButton>
+                        <SlButton size="medium" href="how-i-can-help">Next section</SlButton>
+                    </SlButtonGroup>
+                </div>
 
-            <div className="sectionBtns">
-                <SlButtonGroup>
-                    <SlButton size="medium" href="nature-in-decline">Previous section</SlButton>
-                    <SlButton size="medium" href="/">Back to home page</SlButton>
-                    <SlButton size="medium" href="how-i-can-help">Next section</SlButton>
-                </SlButtonGroup>
-            </div>
+            </div>        
             
         </div>
         
