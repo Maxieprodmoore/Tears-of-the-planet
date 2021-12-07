@@ -1,7 +1,9 @@
 import SlButtonGroup from '@shoelace-style/react/dist/button-group';
 import SlButton from '@shoelace-style/react/dist/button';
 import SlIcon from '@shoelace-style/react/dist/icon';
-import  '@shoelace-style/react/dist/icon';
+import buffetImg from './../../images/pexels-olga-lioncat-buffet.png';
+import changingBlbImg from './../../images/pexels-anete-lusina-changingLightbulbs.png';
+import plantingImg from './../../images/pexels-greta-hoffman-Planting.png';
 
 const HowICanHelp = () => {
   const toPrevSection = (e) => {
@@ -12,7 +14,7 @@ const HowICanHelp = () => {
         <div>
           <div className="infoDump">
             <h2>What can we do to save our planet?</h2>
-            <div className="info">
+            
                 <p>
                   We can start by rethinking our relationship with the planet 
                   and finding the balance that will allow us and the rest of nature to survive.
@@ -33,13 +35,16 @@ const HowICanHelp = () => {
                   Find new ways to do it so that we get the same benefit but in a way that does not cause damage to the planet. 
                   <br />
                   For instance, we can use renewable energy to power our electronic devices and heat our homes, rather than energy produced by burning fossil fuels.
-                </p>
-            </div>                          
+                </p>                          
           </div>
+          
           <div className="infoDump">
             <h3>Scientists are suggesting the following actions:</h3>
             <div className="info">
-              <div className="infoDetails">
+              <div className="infoBtns">
+                <img src={buffetImg} alt="Person planting a seedling in the soil" />
+              </div>
+              <div className="infoHelpNature">
                 <p>
                   Stop the wastage of food. 
                   <br />
@@ -58,14 +63,20 @@ const HowICanHelp = () => {
             </div>
              
             <div className="info">
-              <div className="infoDetails">
+              <div className="infoHelpNature">
                 <p>
                   Check your energy is from 100% renewable sources and encourage the replacement to renewable sources.
                 </p>
               </div>
+              <div className="infoBtns">
+                <img src={changingBlbImg} alt="Person changing a lightbulb" />
+              </div>
             </div>
             <div className="info">
-              <div className="infoDetails">
+              <div className="infoBtns">
+                <img src={plantingImg} alt="Person planting a seedling in the soil" />
+              </div>
+              <div className="infoHelpNature">
                 <p>
                   Invest in ‘nature-based solutions’ that can support biodiversity while playing an active role in slowing climate change 
                   and protecting people and wildlife from its effects. 
@@ -104,29 +115,34 @@ const HowICanHelp = () => {
             </div>
             
           </div>
-          
-          <h3>Share this with a friend/family member!</h3>
-            <p></p>
-            <div id="socials">
-              <SlButton><SlIcon name="facebook"></SlIcon></SlButton>
-              <SlButton><SlIcon name="snapchat"></SlIcon></SlButton>
-              <SlButton><SlIcon name="twitter"></SlIcon></SlButton>
-            </div>
-            <p></p>
-            <SlButton size="large"  href="https://files.worldwildlife.org/wwfcmsprod/files/Publication/file/279c656a32_ENGLISH_FULL.pdf" target="_blank">Living Planet Report</SlButton>
-            <SlButton size="large" href="https://files.worldwildlife.org/wwfcmsprod/files/EducatorsToolkitFile/file/1y1dqia168_Living_Planet_Report_2020_Youth_Edition_Report.pdf" target="_blank">Living Planet Report Youth Edition</SlButton>
-          <h3>Make a pledge to do more for the Planet!</h3>
-          <SlButton size="large" type="success">Make a Pledge!</SlButton>
-          <div id="pledges">
-            <h3>Pledges</h3>
-          </div>
+          <div className="infoDump">
+              <h3>Share this with a friend/family member!</h3>
+                <p></p>
+                <div className="socials">
+                  <SlButton circle className="socialBtn"><SlIcon name="facebook"></SlIcon></SlButton>
+                  <SlButton circle className="socialBtn"><SlIcon name="snapchat"></SlIcon></SlButton>
+                  <SlButton circle><SlIcon name="twitter"></SlIcon></SlButton>
+                </div>
+                <h4>Click here for more details!</h4>
+                <div className="socials">
+                  <SlButton size="large" className="socialBtn" href="https://files.worldwildlife.org/wwfcmsprod/files/Publication/file/279c656a32_ENGLISH_FULL.pdf" target="_blank"><SlIcon name="journal"/> Living Planet Report</SlButton>
+                  <SlButton size="large" href="https://files.worldwildlife.org/wwfcmsprod/files/EducatorsToolkitFile/file/1y1dqia168_Living_Planet_Report_2020_Youth_Edition_Report.pdf" target="_blank"><SlIcon name="journal"/> Living Planet Report Youth Edition</SlButton>
+                </div>
+                
+              <h3>Make a pledge to do more for the Planet!</h3>
+              <SlButton size="large" type="success" className="socials">Make a Pledge!</SlButton>
+              <div id="pledges">
+                <h3>Pledges</h3>
+              </div>
 
-          <div className="sectionBtns">
-            <SlButtonGroup>
-              <SlButton size="medium" onClick={toPrevSection} >Previous section</SlButton>
-              <SlButton size="medium" href="/">Back to home page</SlButton>
-            </SlButtonGroup>
+              <div className="sectionBtns">
+                <SlButtonGroup>
+                  <SlButton size="medium" onClick={toPrevSection} >Previous section</SlButton>
+                  <SlButton size="medium" href="/">Back to home page</SlButton>
+                </SlButtonGroup>
+              </div>
           </div>
+          
           
         </div>
       );

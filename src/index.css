@@ -73,7 +73,7 @@
         
     }
 
-    .infoDump h2, .infoDump h3, .infoDump sl-button::part(base){
+    .infoDump h2, .infoDump h3, .infoDump h4, .infoDump sl-button::part(base){
       text-align: center;
     }
 
@@ -83,6 +83,7 @@
 
     .info{
       display: flex;
+      padding-bottom: 2%;
     }
 
     div h2 {
@@ -175,6 +176,18 @@
 /*-----------------------Why bother page ---------------------------------*/
 
 /*-----------------------How can I help page ---------------------------------*/
+  .socials{
+    text-align: center;
+  }
+
+  .socialBtn{
+    margin-right: 2%;
+  }
+
+  .infoHelpNature{
+    width: 60%;
+    padding: 5% 2.5%;
+  }
 
 /* Responsive Design */
 
