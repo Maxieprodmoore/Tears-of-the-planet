@@ -40,7 +40,7 @@ const AboutUs = () => {
                 <p>
                     Experts over the world have been monitoring the changes in the population sizes of thousands of animal species over the years. 
                     <br />
-                    The data gathered is then collated,stored inside a database and analysed to form a measurement of the world's biodiversity, with the Living Planet Index being one of the biggest.
+                    The data gathered is then collated, stored inside a database and analysed to form a measurement of the world's biodiversity, with the Living Planet Index being one of the biggest.
                 </p>
                 <div className="sectionBtns">
                     <SlButtonGroup>
