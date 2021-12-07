@@ -10,6 +10,13 @@ const HowICanHelp = () => {
     e.preventDefault();
     window.location.href='/why-bother';
   };
+
+  const url = window.location;
+  const tweetCurrentPage = (e) => {
+    e.preventDefault();
+    window.open("https://twitter.com/share?url="+ encodeURIComponent(url)); 
+  };
+
     return (
         <div>
           <div className="infoDump">
@@ -123,10 +130,9 @@ const HowICanHelp = () => {
           <div className="infoDump">
               <h3>Share this with a friend/family member!</h3>
                 <p></p>
-                <div className="socials">
-                  <SlButton circle className="socialBtn"><SlIcon name="facebook"></SlIcon></SlButton>
-                  <SlButton circle className="socialBtn"><SlIcon name="snapchat"></SlIcon></SlButton>
-                  <SlButton circle><SlIcon name="twitter"></SlIcon></SlButton>
+                <div className="socials">                  
+                  <SlButton circle className="socialBtn" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftears-of-the-planet.netlify.app%2F&amp;src=sdkpreparse"><SlIcon name="facebook"></SlIcon></SlButton>
+                  <SlButton circle className="socialBtn" target="_blank" onClick={tweetCurrentPage}><SlIcon name="twitter"></SlIcon></SlButton>   
                 </div>
                 <h4>Click here for more details!</h4>
                 <div className="socials">
