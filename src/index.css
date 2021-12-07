@@ -67,7 +67,7 @@
 
     .infoDump {
         border-bottom: 3px solid black;
-        padding-bottom: 1.25%;
+        padding-bottom: 1.5%;
         padding-top: 1%;
         width: 100%;
         
@@ -179,6 +179,7 @@
 /*-----------------------How can I help page ---------------------------------*/
   .socials{
     text-align: center;
+    margin-bottom: 2%;
   }
 
   .socialBtn{

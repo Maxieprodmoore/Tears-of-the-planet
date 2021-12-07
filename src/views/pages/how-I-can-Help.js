@@ -146,9 +146,7 @@ const HowICanHelp = () => {
                   <SlButton size="medium" href="/">Back to home page</SlButton>
                 </SlButtonGroup>
               </div>
-          </div>
-          
-          
+          </div>          
         </div>
       );
 }
