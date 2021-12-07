@@ -48,6 +48,7 @@ const HowICanHelp = () => {
                 <p>
                   Stop the wastage of food. 
                   <br />
+                  <br />
                   Change some of our diets and change fishing practices to ensure that the oceans can thrive and replace what we take out.
                 </p>
                 <p>
@@ -65,7 +66,7 @@ const HowICanHelp = () => {
             <div className="info">
               <div className="infoHelpNature">
                 <p>
-                  Check your energy is from 100% renewable sources and encourage the replacement to renewable sources.
+                  Check your energy is from 100% renewable sources and encourage friends and family to switch to renewable sources.
                 </p>
               </div>
               <div className="infoBtns">
@@ -109,12 +110,16 @@ const HowICanHelp = () => {
               <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wq9DJWFtnuY" title="YouTube video player" frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen >      
               </iframe>
+              
+            </div>
+            <div className="infoVids">
               <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kEjcTjGajis" title="YouTube video player" frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
               </iframe>
             </div>
-            
+                         
           </div>
+          
           <div className="infoDump">
               <h3>Share this with a friend/family member!</h3>
                 <p></p>

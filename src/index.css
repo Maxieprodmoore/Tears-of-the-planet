@@ -101,7 +101,8 @@
     }
 
     .infoVids {
-      margin: 0 5%;
+      margin: 2% 3%;
+      display: inline-block;
     }
   
   /*End of General Webpage stylings---------------------*/
