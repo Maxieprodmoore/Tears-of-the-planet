@@ -139,12 +139,6 @@ const HowICanHelp = () => {
                   <SlButton size="large" className="socialBtn" href="https://files.worldwildlife.org/wwfcmsprod/files/Publication/file/279c656a32_ENGLISH_FULL.pdf" target="_blank"><SlIcon name="journal"/> Living Planet Report</SlButton>
                   <SlButton size="large" href="https://files.worldwildlife.org/wwfcmsprod/files/EducatorsToolkitFile/file/1y1dqia168_Living_Planet_Report_2020_Youth_Edition_Report.pdf" target="_blank"><SlIcon name="journal"/> Living Planet Report Youth Edition</SlButton>
                 </div>
-                
-              <h3>Make a pledge to do more for the Planet!</h3>
-              <SlButton size="large" type="success" className="socials">Make a Pledge!</SlButton>
-              <div id="pledges">
-                <h3>Pledges</h3>
-              </div>
 
               <div className="sectionBtns">
                 <SlButtonGroup>
