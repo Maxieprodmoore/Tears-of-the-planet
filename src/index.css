@@ -103,6 +103,7 @@
     .infoVids {
       margin: 2% 3%;
       display: inline-block;
+      width: 40%;
     }
   
   /*End of General Webpage stylings---------------------*/
@@ -192,4 +193,129 @@
   }
 
 /* Responsive Design */
+  @media only screen and (max-width: 810px) {
+    .navbar {
+      padding: 0 5%;
+      transform: translate(-4px, -8px);
+    }
 
+    .hmbtn {
+      transform: translateY(48px);
+    }
+
+    .links {
+      padding-right: initial;
+    }
+
+    .navbar a {
+      margin-left: 10px;
+    }
+
+    .content {
+      padding: 2% 5% 3%;
+      width: 90%;
+    }
+
+    .info {
+      padding-bottom: 5%;
+    }
+
+    .infoBtns {
+      width: 50%;
+    }
+
+    .infoHelpNature {
+      width: 50%;
+      padding: 1% 2.5%;
+    }
+
+    .infoVids {
+      margin: 0;
+      width: initial;
+    }
+
+  }
+
+  @media only screen and (max-width: 425px){
+    .hmbtn {
+      transform: translateY(20px);
+    }
+
+    .navbar {
+      padding: 0 1%;
+    }
+
+    .navbar a {
+      margin-left: 16px;
+      font-size: initial;
+    }
+
+    .navbar sl-button::part(base) {
+      margin-left: initial;
+      font-size: 1.3rem;
+    }
+
+    #introTxt h4, #introTxt h5 {
+      font-size: initial;
+    }
+
+    #introTxt h5 {
+      margin-bottom: 5%;
+    }
+
+    .content {
+      padding: 2% 2% 3%;
+      width: 96%;
+    }
+
+    .info {
+      display: block;
+    }
+
+    .infoBtns {
+      width: 100%;
+    }
+
+    .infoDetails {
+      width: 98%;
+      padding: 0 1%;
+    }
+
+    .infoHelpNature {
+      width: 98%;
+      padding: 1%;
+    }
+
+  }
+
+  @media only screen and (max-width: 412px){
+    .hmbtn {
+      transform: translateY(18px);
+    }
+  }
+
+  @media only screen and (max-width: 384px){
+    .hmbtn {
+      transform: translateY(14px);
+    }
+
+    .navbar a {
+      margin-left: 8px;
+    }
+
+    #introTxt h3 {
+      font-size: 2.2rem;
+    }
+
+    .content {
+      padding: 2% 0 3%;
+      width: 99%;
+    }
+    
+  }
+
+  @media only screen and (max-width: 360px){
+    .hmbtn {
+      transform: translateY(10px);
+    }
+  }

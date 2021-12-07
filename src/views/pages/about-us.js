@@ -21,10 +21,13 @@ const AboutUs = () => {
                     <br />
                     Check out the video down below for an example of what WWF does!
                 </p>
-                <iframe 
-                    width="800" height="450" src="https://www.youtube-nocookie.com/embed/xuM3tIHZsQ8" title="YouTube video player" frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-                ></iframe>
+                <div className="info">
+                    <iframe 
+                        width="800" height="450" src="https://www.youtube-nocookie.com/embed/xuM3tIHZsQ8" title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                    ></iframe>
+                </div>
+                
             </div>    
             
             <div className="infoDump">

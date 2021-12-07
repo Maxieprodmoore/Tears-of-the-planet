@@ -53,7 +53,7 @@ const WhyBother = () => {
 
                         </p>
                     </div>
-                    <div className="infoBtns">
+                    <div className="infoVids">
                         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Vo61TiAGwhk" title="YouTube video player" frameborder="0" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                         </iframe>
@@ -61,7 +61,7 @@ const WhyBother = () => {
                 </div>
                 
                 <div className="info">
-                    <div className="infoBtns">
+                    <div className="infoVids">
                         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0i_kcIuSK6w" title="YouTube video player" frameborder="0" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowfullscreen></iframe>
@@ -89,7 +89,7 @@ const WhyBother = () => {
                         </p>
                         <p>As such, we need to start saving the environment if we are to save ourselves.</p>
                     </div>
-                    <div className="infoBtns">
+                    <div className="infoVids">
                         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nMv1F6BXcEE" title="YouTube video player" frameborder="0" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                         </iframe>
