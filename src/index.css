@@ -129,6 +129,11 @@
       display: table;
     }
 
+    iframe {
+      max-width: 100%;
+      max-height: 100%;
+    }
+
   
   /*End of General Webpage stylings---------------------*/
 
@@ -171,6 +176,34 @@
   }
 
 /*-----------------------About page ---------------------------------*/
+  #wwfIntro {
+    margin: 2% 3%;
+    display: inline-block;
+    width: 94%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  #wwfIntro::after{
+    display: block;
+    content: "";
+    padding-top: 56.25%;
+  }
+
+  #wwfIntro iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  #wwfIntro iframe::after{
+    position: initial;
+    content: "";
+    clear: both;
+    display: initial;
+  }
 
 /*-----------------------Nature in Decline page ---------------------------------*/
   .infoDetails{
@@ -340,6 +373,7 @@
       display: block;
       padding-bottom: 1.5%;
       width: 100%;
+      margin-bottom: 4%;
     }
 
     .socialBtn {
@@ -349,6 +383,11 @@
 
     .infoDump {
       padding-bottom: 2.5%;
+    }
+
+    #wwfIntro {
+      margin: 0;
+      width: 100%;
     }
 
   }
