@@ -1,17 +1,10 @@
 import SlButtonGroup from '@shoelace-style/react/dist/button-group';
 import SlButton from '@shoelace-style/react/dist/button';
+import {Link} from 'react-router-dom';
 import globalWrmingImg from './../../images/34322-GlobalWarming.png';
 
 const WhyBother = () => {
     /* ------------------------- Link to other pages---------------------------------*/
-        const toPrevSection = (e) => {
-            e.preventDefault();
-            window.location.href='/nature-in-decline';
-        };
-        const toNextSection = (e) => {
-            e.preventDefault();
-            window.location.href='/how-i-can-help';
-        };
     return (  
         <div>
             <h2>Why does it matter?</h2>
@@ -114,9 +107,13 @@ const WhyBother = () => {
 
                 <div className="sectionBtns">
                     <SlButtonGroup>
-                        <SlButton size="medium" onClick={toPrevSection} >Previous section</SlButton>
+                        <Link to="/nature-in-decline">
+                            <SlButton size="medium" >Previous section</SlButton>
+                        </Link>                        
                         <SlButton size="medium" href="/">Back to home page</SlButton>
-                        <SlButton size="medium" onClick={toNextSection}>Next section</SlButton>
+                        <Link to="/how-i-can-help">
+                            <SlButton size="medium">Next section</SlButton>
+                        </Link>                        
                     </SlButtonGroup>
                 </div>
 

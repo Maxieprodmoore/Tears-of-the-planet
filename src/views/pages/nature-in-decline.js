@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import {Link} from 'react-router-dom';
 import SlButtonGroup from '@shoelace-style/react/dist/button-group';
 import SlButton from '@shoelace-style/react/dist/button';
 import soilThumbnail from './../../images/moleDirtImg-Thumbnail.png';
@@ -78,15 +79,7 @@ const NatureInDecline = () => {
                 setPara2(detailsFood_Para2);
                 setPara3(detailsFood_Para3);
             };
-    /* ------------------------- Link to other pages---------------------------------*/
-        const toPrevSection = (e) => {
-            e.preventDefault();
-            window.location.href='/about-us';
-        };
-        const toNextSection = (e) => {
-            e.preventDefault();
-            window.location.href='/why-bother';
-          };
+
     return (  
         <div>
             <h2>Nature in Decline</h2>
@@ -130,9 +123,13 @@ const NatureInDecline = () => {
                 
                 <div className="sectionBtns">
                     <SlButtonGroup>
-                        <SlButton size="medium" onClick={toPrevSection}>Previous section</SlButton>
+                        <Link to="/about-us">
+                            <SlButton size="medium">Previous section</SlButton>
+                        </Link>                        
                         <SlButton size="medium" href="/">Back to home page</SlButton>
-                        <SlButton size="medium" onClick={toNextSection}>Next section</SlButton>
+                        <Link to="/why-bother">
+                            <SlButton size="medium">Next section</SlButton>
+                        </Link>                       
                     </SlButtonGroup>
                 </div>                
             </div>

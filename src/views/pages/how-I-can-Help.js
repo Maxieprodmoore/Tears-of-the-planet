@@ -1,15 +1,12 @@
 import SlButtonGroup from '@shoelace-style/react/dist/button-group';
 import SlButton from '@shoelace-style/react/dist/button';
 import SlIcon from '@shoelace-style/react/dist/icon';
+import {Link} from 'react-router-dom';
 import buffetImg from './../../images/pexels-olga-lioncat-buffet.png';
 import changingBlbImg from './../../images/pexels-anete-lusina-changingLightbulbs.png';
 import plantingImg from './../../images/pexels-greta-hoffman-Planting.png';
 
 const HowICanHelp = () => {
-  const toPrevSection = (e) => {
-    e.preventDefault();
-    window.location.href='/why-bother';
-  };
 
   const url = window.location;
   const tweetCurrentPage = (e) => {
@@ -142,7 +139,9 @@ const HowICanHelp = () => {
 
               <div className="sectionBtns">
                 <SlButtonGroup>
-                  <SlButton size="medium" onClick={toPrevSection} >Previous section</SlButton>
+                  <Link to="/why-bother">
+                    <SlButton size="medium" >Previous section</SlButton>
+                  </Link>                  
                   <SlButton size="medium" href="/">Back to home page</SlButton>
                 </SlButtonGroup>
               </div>
