@@ -206,7 +206,7 @@
 
     .hmbtn {
       height: 150px;
-      transform: translateY(48px);
+      transform: translateY(34px);
     }
 
     .links {
@@ -240,11 +240,18 @@
       width: initial;
     }
 
+  } 
+
+  @media only screen and (max-width: 800px){
+    .hmbtn {
+      height: 150px;
+      transform: translateY(35px);
+    }
   }
 
   @media only screen and (max-width: 425px){
     .hmbtn {
-      transform: translateY(20px);
+      transform: translateY(10px);
     }
 
     .navbar {
@@ -300,13 +307,13 @@
 
   @media only screen and (max-width: 412px){
     .hmbtn {
-      transform: translateY(18px);
+      transform: translateY(8px);
     }
   }
 
   @media only screen and (max-width: 384px){
     .hmbtn {
-      transform: translateY(14px);
+      transform: translateY(7px);
     }
 
     .navbar a {
@@ -326,6 +333,6 @@
 
   @media only screen and (max-width: 360px){
     .hmbtn {
-      transform: translateY(10px);
+      transform: translateY(5px);
     }
   }
