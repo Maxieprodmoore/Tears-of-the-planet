@@ -104,7 +104,31 @@
       margin: 2% 3%;
       display: inline-block;
       width: 40%;
+      position: relative;
+      overflow: hidden;
     }
+
+    .infoVids::after{
+      display: inline-block;
+      content: "";
+      padding-top: 56.25%;
+    }
+
+    .infoVids iframe{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .infoVids iframe::after{
+      position: initial;
+      content: "";
+      clear: both;
+      display: table;
+    }
+
   
   /*End of General Webpage stylings---------------------*/
 
@@ -128,17 +152,18 @@
   }
 
   #introTxt h3{
-    font-size: 2.4em;
-    margin-bottom: 2%;
+    font-size: 2.2em;
+    margin-bottom: 4.25%;
   }
 
   #introTxt h4{
-    font-size: 2em;
-    margin-bottom: 3%;
+    font-size: 1.6em;
+    margin-bottom: 2.25%;
   }
 
   #introTxt h5 {
-    font-size: 1.6em;
+    font-size: 1.2em;
+    margin-bottom: 1.8%;
   }
 
   .introTitle, .sectionBtns {
@@ -216,6 +241,7 @@
 
     .navbar a {
       margin-left: 10px;
+      font-size: 1.2em;
     }
 
     .content {
@@ -238,7 +264,7 @@
 
     .infoVids {
       margin: 0;
-      width: initial;
+      width: 50%;
     }
 
   } 
@@ -313,6 +339,7 @@
     .infoVids {
       display: block;
       padding-bottom: 1.5%;
+      width: 100%;
     }
 
     .socialBtn {

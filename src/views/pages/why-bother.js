@@ -16,7 +16,6 @@ const WhyItMatters = () => {
                 </p>
                 <p>
                     Additionally, Biodiversity brings lots of direct benefits that we will lose if we continue to destroy the natural world.
-                    <br /> 
                     But we are lately being made aware of other problems caused by that imbalance and loss of biodiversity:
                 </p>
                 <div className="info">
@@ -27,11 +26,11 @@ const WhyItMatters = () => {
                         <p>
                             In general, Climate change has not been a major factor in the decline of biodiversity up to this point, 
                             but scientists are now seeing the effects of rising temperatures on wildlife and it is clear that many species will face problems in the years ahead. 
-                            <br />
-                            Species that are used to certain conditions are shifting their ranges, with knock-on effects on other ecosystems. 
-                            <br />
-                            For the species that are unable to do this, they are struggling to survive the changes to their habitat.
 
+                        </p>
+                        <p>
+                            Species that are used to certain conditions are shifting their ranges, with knock-on effects on other ecosystems. 
+                            Meanwhile, the species that are unable to do this are struggling to survive the changes to their habitat.
                         </p>
                     </div>
                     
@@ -41,13 +40,12 @@ const WhyItMatters = () => {
                     <div className="infoHelpNature">
                         <p>
                             In 2019, Africa had its largest outbreak of desert locusts in decades when unusually heavy rainfall in the Arabian Peninsula created perfect breeding grounds for the locusts, 
-                            <br />
                             which migrated to East Africa and South Asia causing widespread crop devastation in their wake.
 
                         </p>
                     </div>
                     <div className="infoVids">
-                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Vo61TiAGwhk" title="YouTube video player" frameborder="0" 
+                        <iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/Vo61TiAGwhk" title="YouTube video player" frameborder="0" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                         </iframe>
                     </div>
@@ -55,7 +53,7 @@ const WhyItMatters = () => {
                 
                 <div className="info">
                     <div className="infoVids">
-                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0i_kcIuSK6w" title="YouTube video player" frameborder="0" 
+                        <iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/0i_kcIuSK6w" title="YouTube video player" frameborder="0" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowfullscreen></iframe>
                     </div>
@@ -83,7 +81,7 @@ const WhyItMatters = () => {
                         <p>As such, we need to start saving the environment if we are to save ourselves.</p>
                     </div>
                     <div className="infoVids">
-                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nMv1F6BXcEE" title="YouTube video player" frameborder="0" 
+                        <iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/nMv1F6BXcEE" title="YouTube video player" frameborder="0" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                         </iframe>
                     </div>

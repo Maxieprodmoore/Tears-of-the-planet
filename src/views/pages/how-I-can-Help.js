@@ -31,14 +31,14 @@ const HowICanHelp = () => {
                 <p>
                   Do it less, so that nature is able to replace what we take or absorb the impact of our action. 
                   <br />
-                  This could mean that we need to learn to be satisfied with less, or find ways to make the most of less.
+                  This could mean learning to be satisfied with less, or finding ways to make the most of less.
                   <br /> 
                   Whether it be by wasting less food, or by reusing things rather than replacing them.
                 </p>
                 <p>
-                  Find new ways to do it so that we get the same benefit but in a way that does not cause damage to the planet. 
+                  We also need to find new ways to do it so that we get the same benefit but in a way that does not cause damage to the planet. 
                   <br />
-                  For instance, we can use renewable energy to power our electronic devices and heat our homes, rather than energy produced by burning fossil fuels.
+                  Such as, for instance, using renewable energy to power our electronic devices and heat our homes, rather than energy produced by burning fossil fuels.
                 </p>                          
           </div>
           
@@ -68,14 +68,14 @@ const HowICanHelp = () => {
             </div>
              
             <div className="info">
+              <div className="infoBtns">
+                <img src={changingBlbImg} alt="Person changing a lightbulb" />
+              </div>
               <div className="infoHelpNature">
                 <p>
                   Check your energy is from 100% renewable sources and encourage friends and family to switch to renewable sources.
                 </p>
-              </div>
-              <div className="infoBtns">
-                <img src={changingBlbImg} alt="Person changing a lightbulb" />
-              </div>
+              </div>             
             </div>
             <div className="info">
               <div className="infoBtns">
