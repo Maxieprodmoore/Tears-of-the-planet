@@ -116,11 +116,6 @@ const HowICanHelp = () => {
               </iframe>
               
             </div>
-            <div className="infoVids">
-              <iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/kEjcTjGajis" title="YouTube video player" frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-              </iframe>
-            </div>
                          
           </div>
           
