@@ -290,6 +290,7 @@
 
     .info {
       display: block;
+      padding-bottom: 1%;
     }
 
     .infoBtns {
@@ -312,6 +313,7 @@
 
     .infoVids {
       display: block;
+      padding-bottom: 1.5%;
     }
 
     .socialBtn {

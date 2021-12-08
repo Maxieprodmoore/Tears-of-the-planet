@@ -29,7 +29,6 @@ const AboutUs = () => {
             </div>    
             
             <div className="infoDump">
-                <h2>What is this about?</h2>
                 <h3>What is the Living Planet Report?</h3>
                 <p>The Living Planet Report is a publication by WWF which is produced and published every two years with input from leading experts and other organisations all over the world. 
                     <br />
