@@ -3,7 +3,7 @@ import SlButton from '@shoelace-style/react/dist/button';
 import {Link} from 'react-router-dom';
 import globalWrmingImg from './../../images/34322-GlobalWarming.png';
 
-const WhyBother = () => {
+const WhyItMatters = () => {
     /* ------------------------- Link to other pages---------------------------------*/
     return (  
         <div>
@@ -124,4 +124,4 @@ const WhyBother = () => {
     );
 }
  
-export default WhyBother;
+export default WhyItMatters;

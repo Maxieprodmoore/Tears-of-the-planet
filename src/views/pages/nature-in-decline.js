@@ -27,14 +27,14 @@ const NatureInDecline = () => {
     /*--------------------------Decline regarding freshWater inhabitants------------------------*/
         const detailsFreshWater_Title = 'Freshwater woes';
         const detailsFreshWater_Para1 = 'Freshwater wildlife populations have declined by 84% on average from 1970s onwards. Almost one in three freshwater species are threatened with extinction, with larger animals such as hippos, river dolphins, sturgeon and beavers being generally the most at risk.';
-        const detailsFreshWater_Para2 = 'Despite how important water is for life and health, freshwater ecosystems are sadly the most threatened on Earth, with 90% of wetlands being lost since the 1700s and the altering of river flows being major factors for that. But if we help to protect critical wetland habitats and end overfishing, we would be on a great start in helping freshwater habitats recover.';
-        const detailsFreshWater_Para3 = '';
+        const detailsFreshWater_Para2 = 'Despite how important water is for life and health, freshwater ecosystems are sadly the most threatened on Earth, with 90% of wetlands being lost since the 1700s and the altering of river flows being major factors for that.';
+        const detailsFreshWater_Para3 = 'But if we help to protect critical wetland habitats and end overfishing, we would be on a great start in helping freshwater habitats recover.';
 
     /*--------------------------Decline regarding Food------------------------*/
         const detailsFood_Title = 'Food woes';  
-        const detailsFood_Para1 = '1 third of Earth’s land is dedicated to farming crops and livestock, accounting for 75% of our freshwater usage. Unfortunately, out of all the food we produce, ⅓ of it is never eaten.';
-        const detailsFood_Para2 = 'This is an issue as Food waste is responsible for roughly 8% of greenhouse gases added to the atmosphere, including gases released via decomposition.';
-        const detailsFood_Para3 = '';
+        const detailsFood_Para1 = '1 third of Earth’s land is dedicated to farming crops and livestock, accounting for 75% of our freshwater usage.';
+        const detailsFood_Para2 = 'Unfortunately, out of all the food we produce, ⅓ of it is never eaten.';
+        const detailsFood_Para3 = 'This is an issue as Food waste is responsible for roughly 8% of greenhouse gases added to the atmosphere, including gases released via decomposition.';
 
     /*--------------------Initial state-----------------------------------------------*/
         const [articleTitle, setTitle] = useState(detailsSoil_Title);
@@ -92,7 +92,9 @@ const NatureInDecline = () => {
             <p>
                 Unfortunately, thanks to our activities, the other living things’ population sizes have, on average, declined by 68% since the 1970s with no signs of slowing down. 
                <br />
+               <br />
                Worst of all, this decline has started to keep the living system from working as we need it to in order to provide for the needs of the growing human population. 
+               <br />
                <br />
                We have the power to make a change to prevent biodiversity loss, and get the living things to start recovering their population sizes, but we need to take action now.
             </p>
@@ -107,8 +109,7 @@ const NatureInDecline = () => {
                         <p>
                             We have been causing damage on so many fronts.
                             <br />
-                            Click on the pictures to uncover the damage we've done,
-                            <br />
+                            Click on the pictures to uncover the damage we've done
                             and why we need to reverse it!
                         </p>
                     </div>
@@ -127,7 +128,7 @@ const NatureInDecline = () => {
                             <SlButton size="medium">Previous section</SlButton>
                         </Link>                        
                         <SlButton size="medium" href="/">Back to home page</SlButton>
-                        <Link to="/why-bother">
+                        <Link to="/why-it-matters">
                             <SlButton size="medium">Next section</SlButton>
                         </Link>                       
                     </SlButtonGroup>

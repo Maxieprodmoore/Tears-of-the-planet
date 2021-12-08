@@ -139,7 +139,7 @@ const HowICanHelp = () => {
 
               <div className="sectionBtns">
                 <SlButtonGroup>
-                  <Link to="/why-bother">
+                  <Link to="/why-it-matters">
                     <SlButton size="medium" >Previous section</SlButton>
                   </Link>                  
                   <SlButton size="medium" href="/">Back to home page</SlButton>

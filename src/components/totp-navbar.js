@@ -13,7 +13,7 @@ const Navbar = () => {
             <div className="links">
                 <Link to="/about-us">About us</Link>
                 <Link to="/nature-in-decline">Nature in decline</Link>
-                <Link to="/why-bother">Why bother?</Link>
+                <Link to="/why-it-matters">Why it matters</Link>
                 <Link to="/how-i-can-help">
                     <SLButton type="success" >How can I help?</SLButton>
                 </Link>
