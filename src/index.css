@@ -3,7 +3,7 @@
 /* Fonts */
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Archivo Black', sans-serif;
-    font-size: 2rem;
+    font-size: 2em;
     margin-top: 0%;
     margin-bottom: 1%;
   }
@@ -32,7 +32,7 @@
     .navbar a {
       margin-left: 16px;
       text-decoration: none;
-      font-size: 1.3rem;
+      font-size: 1.3em;
       color: white;
     }
 
@@ -53,7 +53,7 @@
 
     .navbar sl-button::part(base){
       margin-left: 16px;
-      font-size: 1.3rem;
+      font-size: 1.3em;
     }
   
   /*End of Navigation bar stylings---------------------*/
@@ -124,11 +124,11 @@
   }
 
   #introTxt h1 {
-    font-size: 2.8rem;
+    font-size: 2.8em;
   }
 
   #introTxt h3{
-    font-size: 2.4rem;
+    font-size: 2.4em;
     margin-bottom: 1%;
   }
 
@@ -137,7 +137,7 @@
   }
 
   #introTxt h5 {
-    font-size: 1.8rem;
+    font-size: 1.6em;
   }
 
   .introTitle, .sectionBtns {
@@ -273,7 +273,7 @@
 
     .navbar sl-button::part(base) {
       margin-left: initial;
-      font-size: 1.3rem;
+      font-size: 1.3em;
     }
 
     .navbar {
@@ -348,7 +348,7 @@
     }
 
     #introTxt h3 {
-      font-size: 2.2rem;
+      font-size: 2.2em;
     }
 
     .content {

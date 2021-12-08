@@ -11,12 +11,15 @@ const Home = () => {
                 <h3 className="introTitle">A condensation of WWF's Living Planet Report 2020.</h3>
                 <h4>
                     Nature is in decline. And if it gets any worse, everyone suffers.
-                    <br />
-                    The path may seem daunting and you might be afraid. 
-                    <br />
-                    But that's ok! Get friends and/or family members to walk down this path if you need to.
-                    <br />
-                    But we need to get started. And with your help alongside the multitude of others before you, 
+                </h4>
+                <h4>
+                    The path may seem daunting and you might be afraid...                     
+                </h4>
+                <h4>
+                    But that's alright! Get friends and/or family members to walk down this path if you need to.                   
+                </h4>
+                <h4>
+                    That said, we need to get started. And with your help alongside the multitude of others before you, 
                     we can make the first steps towards recovery.
                 </h4>
                 <h5>
