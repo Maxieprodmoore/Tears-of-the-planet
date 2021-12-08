@@ -249,13 +249,21 @@
     }
   }
 
-  @media only screen and (max-width: 425px){
+  @media only screen and (max-width: 428px){
     .hmbtn {
-      transform: translateY(10px);
+      transform: translateY(2px);
     }
 
-    .navbar {
-      padding: 0 1%;
+    .navbar a {
+      font-size: initial;
+    }
+
+    #introTxt h4, #introTxt h5 {
+      font-size: initial;
+    }
+
+    #introTxt h5 {
+      margin-bottom: 3%;
     }
 
     .navbar a {
@@ -268,13 +276,11 @@
       font-size: 1.3rem;
     }
 
-    #introTxt h4, #introTxt h5 {
-      font-size: initial;
+    .navbar {
+      padding: 0 1%;
     }
 
-    #introTxt h5 {
-      margin-bottom: 5%;
-    }
+   
 
     .content {
       padding: 2% 2% 3%;
@@ -303,6 +309,27 @@
       text-align: center;
     }
 
+    .infoVids {
+      display: block;
+    }
+
+    .socialBtn {
+      margin-right: 2%;
+      margin-bottom: 3%;
+    }
+
+    .infoDump {
+      padding-bottom: 2.5%;
+    }
+
+  }
+
+  @media only screen and (max-width: 425px){
+    .hmbtn {
+      transform: translateY(10px);
+    }
+
+    
   }
 
   @media only screen and (max-width: 412px){

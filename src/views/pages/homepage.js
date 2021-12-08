@@ -8,7 +8,7 @@ const Home = () => {
         <div id="introImg">
             <div id="introTxt">
                 <h1 className="introTitle">Presenting: Tears of the Planet</h1>
-                <h3 className="introTitle">A condensation of WWF's' Living Planet report 2020 edition.</h3>
+                <h3 className="introTitle">A condensation of WWF's Living Planet Report 2020.</h3>
                 <h4>
                     Nature is in decline. And if it gets any worse, everyone suffers.
                     <br />

@@ -111,13 +111,13 @@ const HowICanHelp = () => {
               Don’t worry about taking action alone, there are peers out there who are just as eager to ensure Nature is healing:
             </h3>
             <div className="infoVids">
-              <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wq9DJWFtnuY" title="YouTube video player" frameborder="0" 
+              <iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/wq9DJWFtnuY" title="YouTube video player" frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen >      
               </iframe>
               
             </div>
             <div className="infoVids">
-              <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kEjcTjGajis" title="YouTube video player" frameborder="0" 
+              <iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/kEjcTjGajis" title="YouTube video player" frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
               </iframe>
             </div>
@@ -126,7 +126,6 @@ const HowICanHelp = () => {
           
           <div className="infoDump">
               <h3>Share this with a friend/family member!</h3>
-                <p></p>
                 <div className="socials">                  
                   <SlButton circle className="socialBtn" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftears-of-the-planet.netlify.app%2F&amp;src=sdkpreparse"><SlIcon name="facebook"></SlIcon></SlButton>
                   <SlButton circle className="socialBtn" target="_blank" onClick={tweetCurrentPage}><SlIcon name="twitter"></SlIcon></SlButton>   
