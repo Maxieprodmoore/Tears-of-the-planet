@@ -11,7 +11,7 @@ const Navbar = () => {
                 window.location.href='/';
             }}/>
             <div className="links">
-                <Link to="/about-us">About this page</Link>
+                <Link to="/about-this-page">About this page</Link>
                 <Link to="/nature-in-decline">Nature in decline</Link>
                 <Link to="/why-it-matters">Why it matters</Link>
                 <Link to="/how-i-can-help">

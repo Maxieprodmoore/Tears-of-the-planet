@@ -124,7 +124,7 @@ const NatureInDecline = () => {
                 
                 <div className="sectionBtns">
                     <SlButtonGroup>
-                        <Link to="/about-us">
+                        <Link to="/about-this-page">
                             <SlButton size="medium">Previous section</SlButton>
                         </Link>                        
                         <SlButton size="medium" href="/">Back to home page</SlButton>
