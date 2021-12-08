@@ -11,13 +11,18 @@ const Navbar = () => {
                 window.location.href='/';
             }}/>
             <div className="links">
-                <Link to="/about-this-page">About this page</Link>
-                <Link to="/nature-in-decline">Nature in decline</Link>
-                <Link to="/why-it-matters">Why it matters</Link>
-                <Link to="/how-i-can-help">
-                    <SLButton type="success" >How can I help?</SLButton>
-                </Link>
+                <div>
+                    <Link to="/about-this-page">About this page</Link>
+                    <Link to="/nature-in-decline">Nature in decline</Link>
+                </div>
                 
+                <div>
+                    <Link to="/why-it-matters">Why it matters</Link>
+                    <Link to="/how-i-can-help">
+                        <SLButton type="success" >How can I help?</SLButton>
+                    </Link>
+                </div>
+                               
             </div>
         </nav>
      );

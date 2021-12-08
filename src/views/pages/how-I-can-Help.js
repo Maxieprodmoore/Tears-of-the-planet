@@ -110,7 +110,7 @@ const HowICanHelp = () => {
             <h3>
               Don’t worry about taking action alone, there are peers out there who are just as eager to ensure Nature is healing:
             </h3>
-            <div className="infoVids">
+            <div className="wwfIntro">
               <iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/wq9DJWFtnuY" title="YouTube video player" frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen >      
               </iframe>

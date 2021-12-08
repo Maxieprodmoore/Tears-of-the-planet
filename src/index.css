@@ -25,11 +25,8 @@
       transform: translateY(-6px);
     }
 
-    .navbar .links {
-      margin-left: auto;
-    }
 
-    .navbar a {
+    .links a {
       margin-left: 16px;
       text-decoration: none;
       font-size: 1.3em;
@@ -37,7 +34,8 @@
     }
 
     .links{
-      padding-right: 2%;
+      padding-left: 45%;
+      display: flex;
     }
 
     .navbar a:hover{
@@ -52,7 +50,6 @@
     }
 
     .navbar sl-button::part(base){
-      margin-left: 16px;
       font-size: 1.3em;
     }
   
@@ -176,7 +173,7 @@
   }
 
 /*-----------------------About page ---------------------------------*/
-  #wwfIntro {
+  .wwfIntro {
     margin: 2% 3%;
     display: inline-block;
     width: 94%;
@@ -184,13 +181,13 @@
     overflow: hidden;
   }
 
-  #wwfIntro::after{
+  .wwfIntro::after{
     display: block;
     content: "";
     padding-top: 56.25%;
   }
 
-  #wwfIntro iframe{
+  .wwfIntro iframe{
     position: absolute;
     top: 0;
     left: 0;
@@ -198,7 +195,7 @@
     height: 100%;
   }
 
-  #wwfIntro iframe::after{
+  .wwfIntro iframe::after{
     position: initial;
     content: "";
     clear: both;
@@ -269,12 +266,16 @@
     }
 
     .links {
-      padding-right: initial;
+      padding-left: 5%;
     }
 
-    .navbar a {
+    .links div{
+      display: inline-block;
+    }
+
+    .links div a {
       margin-left: 10px;
-      font-size: 1.2em;
+      font-size: 1.1em;
     }
 
     .content {
@@ -311,7 +312,7 @@
 
   @media only screen and (max-width: 428px){
     .hmbtn {
-      transform: translateY(10px);
+      transform: translateY(4px);
     }
 
     .navbar a {
@@ -324,11 +325,6 @@
 
     #introTxt h5 {
       margin-bottom: 3%;
-    }
-
-    .navbar a {
-      margin-left: 16px;
-      font-size: initial;
     }
 
     .navbar sl-button::part(base) {
@@ -390,29 +386,35 @@
       width: 100%;
     }
 
-  }
+    .links {
+      display: block;
+          padding-left: 13%;
+    } 
 
-  @media only screen and (max-width: 425px){
-    .hmbtn {
-      transform: translateY(10px);
+    .links div a {
+      font-size: initial;
     }
 
-    
+    .navbar sl-button::part(base){
+      font-size: initial;
+    }
+
   }
 
   @media only screen and (max-width: 412px){
     .hmbtn {
-      transform: translateY(8px);
+      transform: translateY(1px);
     }
   }
 
   @media only screen and (max-width: 384px){
     .hmbtn {
-      transform: translateY(7px);
+      transform: translateY(10px);
+      width: 100px;
     }
 
-    .navbar a {
-      margin-left: 8px;
+    .links div a {
+      margin-left: 5px;
     }
 
     #introTxt h3 {
