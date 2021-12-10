@@ -1,4 +1,4 @@
-import SLButton from '@shoelace-style/react/dist/button';
+import SlButton from '@shoelace-style/react/dist/button';
 import {Link} from 'react-router-dom';
 import {ReactComponent as Logo} from './../images/WWF_Logo_Vertical.svg';
 
@@ -19,7 +19,7 @@ const Navbar = () => {
                 <div>
                     <Link to="/why-it-matters">Why it matters</Link>
                     <Link to="/how-i-can-help">
-                        <SLButton type="success" >How can I help?</SLButton>
+                        <SlButton type="success" >How can I help?</SlButton>
                     </Link>
                 </div>
                                

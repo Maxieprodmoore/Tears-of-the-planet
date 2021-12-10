@@ -1,4 +1,4 @@
-import SLButton from '@shoelace-style/react/dist/button';
+import SlButton from '@shoelace-style/react/dist/button';
 import {Link} from 'react-router-dom';
 
 const Home = () => {
@@ -27,9 +27,9 @@ const Home = () => {
                 </h5>
                 <div className="sectionBtns">
                     <Link to="/about-this-page">
-                        <SLButton size="medium" >
+                        <SlButton size="medium" >
                             <strong>Let's Get Started!</strong>
-                        </SLButton>
+                        </SlButton>
                     </Link>
                     
                 </div>
