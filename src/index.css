@@ -38,7 +38,12 @@
       display: flex;
     }
 
-    .navbar a:hover{
+    #Hmburger{
+      padding-left: 45%;
+      display: none;
+    }
+
+    .navbar a:hover, sl-button[type="success"]:hover, :single-button[type="default"]:hover{
       color: #025373;
     }
 
@@ -50,9 +55,40 @@
     }
 
     .navbar sl-button::part(base){
-      font-size: 1.3em;
+      font-size: 1.5em;
+    }
+
+    sl-icon-button::part(base){
+      color: rgb(255, 255, 255);
+      font-size: 1.5em;
+    }
+
+    #HmburgerDrawer{
+      --size: 90vw;
+    }
+
+    #HmburgerDrawer::part(body), #HmburgerDrawer::part(header), #HmburgerDrawer::part(footer){
+      background-color: black;
+    }
+
+    #HmburgerDrawer a, #HmburgerDrawer::part(close-button) {
+      font-size: 1.5em;
+      color: white;
     }
   
+    #HmburgerDrawer a{
+      display: block;
+      padding-bottom: 2%;
+    }
+
+    #HmburgerDrawer a sl-button[type="success"]{
+      background-color: #2a903f;
+    }
+
+    #HmburgerDrawer::part(close-button){
+      width: 100%;
+
+    }
   /*End of Navigation bar stylings---------------------*/
 
   /* General Webpage stylings------------------------------------------*/
@@ -262,18 +298,15 @@
 
     .hmbtn {
       height: 150px;
-      transform: translateY(34px);
+      transform: translateY(30px);
     }
 
     .links {
       padding-left: 5%;
+      display: none;
     }
 
-    .links div{
-      display: inline-block;
-    }
-
-    .links div a {
+    .links a {
       margin-left: 10px;
       font-size: 1.1em;
     }
@@ -301,18 +334,23 @@
       width: 50%;
     }
 
+    #Hmburger{
+      padding-left: 85%;
+      display: block;
+    }
+
   } 
 
   @media only screen and (max-width: 800px){
     .hmbtn {
-      height: 150px;
-      transform: translateY(35px);
+      transform: translateY(24px);
     }
   }
 
   @media only screen and (max-width: 428px){
     .hmbtn {
-      transform: translateY(4px);
+      height: 120px;
+      transform: translateY(20px);
     }
 
     .navbar a {
@@ -334,6 +372,10 @@
 
     .navbar {
       padding: 0 1%;
+    }
+
+    #Hmburger {
+      padding-left: 70%;
     }
 
     .content {
@@ -386,14 +428,6 @@
       width: 100%;
     }
 
-    .links {
-      display: block;
-          padding-left: 13%;
-    } 
-
-    .links div a {
-      font-size: initial;
-    }
 
     .navbar sl-button::part(base){
       font-size: initial;
@@ -403,19 +437,16 @@
 
   @media only screen and (max-width: 412px){
     .hmbtn {
-      transform: translateY(1px);
+      transform: translateY(20px);
     }
   }
 
   @media only screen and (max-width: 384px){
     .hmbtn {
-      transform: translateY(10px);
+      transform: translateY(20px);
       width: 100px;
     }
 
-    .links div a {
-      margin-left: 5px;
-    }
 
     #introTxt h3 {
       font-size: 2.2em;
@@ -430,6 +461,6 @@
 
   @media only screen and (max-width: 360px){
     .hmbtn {
-      transform: translateY(5px);
+      transform: translateY(19px);
     }
   }
