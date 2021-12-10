@@ -9,7 +9,7 @@ import NatureInDecline from './../src/views/pages/nature-in-decline';
 import WhyItMatters from './../src/views/pages/why-bother';
 import HowICanHelp from './../src/views/pages/how-I-can-Help';
 import { setBasePath } from '@shoelace-style/shoelace/dist/utilities/base-path';
-setBasePath('https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.61/dist/');
+setBasePath('https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.62/dist/');
 
 function App() {
   return (
