@@ -294,6 +294,22 @@
   }
 
 /* Responsive Design */
+  @media only screen and (max-width: 1366px) {
+    .hmbtn {
+      transform: translateY(29px);
+    }
+
+
+  }
+
+  @media only screen and (max-width: 1280px) {
+    .hmbtn {
+      transform: translateY(20px);
+    }
+
+    
+  }
+
   @media only screen and (max-width: 810px) {
     .navbar {
       padding: 0 5%;
@@ -449,6 +465,10 @@
     .hmbtn {
       transform: translateY(20px);
       width: 100px;
+    }
+
+    .infoDump {
+      padding-top: 7%;
     }
 
 
