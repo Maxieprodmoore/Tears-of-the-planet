@@ -1,4 +1,4 @@
-import SlButton from '@shoelace-style/react/dist/button';
+import {SlButton} from '@shoelace-style/shoelace/dist/react';
 import {Link} from 'react-router-dom';
 
 const Home = () => {

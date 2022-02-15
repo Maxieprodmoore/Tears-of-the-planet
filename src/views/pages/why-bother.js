@@ -1,6 +1,5 @@
-import SlButtonGroup from '@shoelace-style/react/dist/button-group';
-import SlButton from '@shoelace-style/react/dist/button';
 import {Link} from 'react-router-dom';
+import {SlButton, SlButtonGroup} from '@shoelace-style/shoelace/dist/react';
 import globalWrmingImg from './../../images/34322-GlobalWarming.png';
 
 const WhyItMatters = () => {

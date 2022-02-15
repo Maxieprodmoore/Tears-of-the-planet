@@ -1,8 +1,6 @@
 import { useState } from 'react';
-import SlButton from '@shoelace-style/react/dist/button';
-import SlIconButton from '@shoelace-style/react/dist/icon-button';
-import SlDrawer from '@shoelace-style/react/dist/drawer';
 import {Link} from 'react-router-dom';
+import {SlButton, SlIconButton, SlDrawer} from '@shoelace-style/shoelace/dist/react';
 import {ReactComponent as Logo} from './../images/WWF_Logo_Vertical.svg';
 
 const Navbar = () => {

@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import {Link} from 'react-router-dom';
-import SlButtonGroup from '@shoelace-style/react/dist/button-group';
-import SlButton from '@shoelace-style/react/dist/button';
+import {SlButton, SlButtonGroup} from '@shoelace-style/shoelace/dist/react';
 import soilThumbnail from './../../images/moleDirtImg-Thumbnail.png';
 import foodThumbnail from './../../images/deforestationImg-Thumbnail.png';
 import seaThumbnail from './../../images/dolphinsImg-Thumbnail.png';
